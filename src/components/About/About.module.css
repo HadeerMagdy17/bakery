@@ -1,0 +1,44 @@
+.about {
+  text-align: left;
+  color: #fff;
+  background: linear-gradient(to right, #c98a40 60%, white 40%);
+}
+.aboutPhoto {
+  width: 442px;
+  height: 570px;
+}
+.aboutText {
+  width: 508px;
+  font-weight: 800;
+  font-size: 130px;
+  line-height: 138.24px;
+}
+/* **************screens************* */
+/* small screen*/
+
+@media only screen and (max-width: 576px) {
+  .aboutText {
+    font-size: 40px;
+  }
+}
+/* medium screen*/
+@media only screen and (max-width: 768px) {
+  .about {
+    background: linear-gradient(to right, #c98a40 80%, white 20%);
+  }
+  .aboutText {
+    font-size: 50px;
+    /* line-height: 15px; */
+  }
+}
+
+/* large screen*/
+@media only screen and (max-width: 992px) {
+  .about {
+    background: linear-gradient(to right, #c98a40 80%, white 20%);
+  }
+  .aboutText {
+    font-size: 70px;
+    line-height: 65px;
+  }
+}

@@ -1,0 +1,23 @@
+.btn2{
+    height: 60px;
+    width: 195px;
+    border-radius: 50px;
+    color:#fff;
+    border-color: #FDBA10;
+    background-color: #FDBA10;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .btn2:hover{
+    background-color: #C98A40;
+    border-color: #FDBA10;
+    color:#fff;
+  }
+
+  @media only screen and (max-width: 992px) {
+  .btn2 {
+    height: 45px;
+    width: 140px;
+}
+  }

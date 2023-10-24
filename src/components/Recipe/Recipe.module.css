@@ -1,0 +1,33 @@
+.recText {
+  margin: auto;
+  color: rgba(201, 138, 64, 1);
+  font-size: 144px;
+  font-family: "Sen", sans-serif;
+  font-weight: 800;
+}
+.card {
+  border-radius: 5px;
+  border: 1px solid #c98a40;
+}
+/* **************screens************* */
+/* small screen*/
+
+@media only screen and (max-width: 576px) {
+  .recText {
+    font-size: 40px;
+  }
+}
+
+/* medium screen*/
+@media only screen and (max-width: 768px) {
+  .recText {
+    font-size: 65px;
+  }
+}
+
+/* large screen*/
+@media only screen and (max-width: 992px) {
+  .recText {
+    font-size: 70px;
+  }
+}

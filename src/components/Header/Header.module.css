@@ -1,0 +1,135 @@
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(201, 138, 64, 1) 60%,
+      rgba(252, 252, 252, 0.5) 40%
+    ),
+    url(../../imgs/header.png);
+  min-height: 660px;
+}
+.headerCorner {
+  width: 460px;
+  height: 130px;
+  position: absolute;
+  bottom: 43px;
+  background-image: url("../../imgs/icons-bg.png");
+}
+.tasty {
+  font-family: "Sen", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 89px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.headerText {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn2 {
+  height: 60px;
+  width: 195px;
+  border-radius: 50px;
+  color: #fff;
+  border-color: #fdba10;
+  background-color: #fdba10;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.btn2:hover {
+  background-color: #c98a40;
+  border-color: #fdba10;
+  color: #fff;
+}
+
+.imgPosition1 {
+  top: -24%;
+  left: 20%;
+}
+.imgPosition {
+  top: 71%;
+  left: 30%;
+}
+.social {
+  margin-right: 15px;
+  text-align: right;
+}
+
+.iconColor {
+  color: #c98a40;
+}
+
+/* large screen*/
+@media only screen and (max-width: 1500px) {
+  .headerCorner {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .imgHeader {
+    width: 371px;
+    height: 258px;
+  }
+  .imgPosition {
+    width: 110px;
+    height: 110px;
+    top: 45%;
+  }
+  .imgPosition1 {
+    display: none;
+  }
+ 
+}
+/* medium screen*/
+@media only screen and (max-width: 768px) {
+  .header {
+    background-image: linear-gradient(
+        to right,
+        rgba(201, 138, 64, 1) 70%,
+        rgba(252, 252, 252, 0.5) 30%
+      ),
+      url(../../imgs/header.png);
+  }
+  .tasty {
+    font-size: 30px;
+  }
+  .headerText {
+    font-size: 13px;
+  }
+  .btn2 {
+    height: 45px;
+    width: 120px;
+  }
+  .imgHeader {
+    width: 321px;
+    height: 170px;
+  }
+  .imgPosition {
+    width: 90px;
+    height: 90px;
+    top: 70%;
+  }
+
+  .social {
+    background: none !important;
+    display: inline;
+  }
+  .iconColor {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .imgPosition {
+    top: 48%;
+  }
+  .social {
+    background: none !important;
+  }
+  .iconColor {
+    color: #fff;
+  }
+}

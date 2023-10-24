@@ -1,0 +1,40 @@
+.test {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(201, 138, 64, 0.7) 0%,
+      rgba(201, 138, 64, 0.7) 100%
+    ),
+    url(../../imgs/Mask\ Group1.png);
+  min-height: 768px;
+}
+.testText {
+  color: #fff;
+
+  width: auto;
+  margin: auto;
+  font-size: 120px;
+  font-family: "Sen", sans-serif;
+  font-weight: 800;
+}
+/* **************screens************* */
+
+/* large screen*/
+@media only screen and (max-width: 1200px) {
+  .testText {
+    font-size: 90px;
+  }
+}
+/* medium screen*/
+@media only screen and (max-width: 768px) {
+  .testText {
+    font-size: 55px;
+  }
+}
+
+/* small screen*/
+
+@media only screen and (max-width: 576px) {
+  .testText {
+    font-size: 45px;
+  }
+}

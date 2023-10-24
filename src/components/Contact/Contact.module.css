@@ -1,0 +1,78 @@
+.text {
+  color: #c98a40;
+  font-size: 144px;
+  margin-bottom: 20px;
+  font-family: "Sen", sans-serif;
+  font-weight: 800;
+}
+.inputs {
+  height: 56px;
+  width: 100%;
+  border-radius: 50px;
+  border-color: #ffd39f;
+  background-color: #ffd39f;
+}
+
+.btn1 {
+  height: 56px;
+  width: 168px;
+  border-radius: 50px;
+  color: #000;
+  border: 3px solid #c98a40;
+  background-color: #fff;
+  font-weight: bold;
+}
+.btn1:hover {
+  background-color: #c98a40;
+  border-color: #c98a40;
+}
+input::placeholder {
+  font-weight: bold;
+  padding-left: 10px;
+  color: #584125 !important;
+}
+/* contact list */
+
+.contactList {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.listItem {
+  color: #c98a40;
+  font-family: "Abel", sans-serif;
+}
+
+.phoneIcon {
+  margin-left: -45px;
+}
+
+.phone,
+.gmail {
+  margin-left: 50px;
+  font-size: 14px;
+  color: #000;
+  font-family: "Abel";
+  font-weight: 400;
+}
+/* **************screens************* */
+
+/* large screen*/
+@media only screen and (max-width: 1200px) {
+  .text {
+    font-size: 80px;
+  }
+}
+/* medium screen*/
+@media only screen and (max-width: 768px) {
+  .text {
+    font-size: 50px;
+  }
+}
+/* small screen*/
+
+@media only screen and (max-width: 576px) {
+  .text {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,33 @@
+.bg{
+    background-color: transparent;
+}
+.image{
+    width: 53px;
+height: 52px;
+margin-right: 20px;
+
+}
+span{
+    font-family: 'Sen', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase; 
+    
+}
+.content1::after{
+    content: "\a";
+    white-space: pre;
+}
+.content2{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    span{
+       
+        font-size: 16px;
+    }
+  }
